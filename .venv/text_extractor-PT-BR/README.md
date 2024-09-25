@@ -26,14 +26,14 @@ Windows: Baixe e instale o Tesseract aqui.
 Ubuntu:
 
 ```bash
-Copiar código
+
 sudo apt update
 sudo apt install tesseract-ocr
 ```
 
 MacOS:
 ```bash
-Copiar código
+
 brew install tesseract
 ```
 
@@ -42,14 +42,14 @@ Como Usar
 Importe as funções extract_text e preprocess_image para utilizar no seu script:
 
 ```python
-Copiar código
+
 from text_extractor import extract_text, preprocess_image
 ```
 2. Extraindo Texto de uma Imagem
 A função extract_text pode ser usada para extrair texto diretamente de uma imagem:
 
 ```python
-Copiar código
+
 # Extrair texto diretamente de uma imagem
 texto = extract_text('caminho/para/imagem.png', lang='por')
 print(texto)
@@ -58,7 +58,7 @@ print(texto)
 Se a imagem precisar de processamento antes da extração, como conversão para escala de cinza e binarização, você pode utilizar o parâmetro preprocess:
 
 ```python
-Copiar código
+
 # Extrair texto de uma imagem com pré-processamento
 texto = extract_text('caminho/para/imagem.png', lang='por', preprocess=True)
 print(texto)
@@ -66,7 +66,7 @@ print(texto)
 4. Exemplos de Uso
 Extração Simples
 ```python
-Copiar código
+
 from text_extractor import extract_text
 
 # Caminho para a imagem
@@ -88,9 +88,10 @@ image_path = 'imagens/documento_ruidoso.png'
 texto = extract_text(image_path, lang='por', preprocess=True)
 print("Texto extraído com pré-processamento:")
 print(texto)
+```
 Pré-processamento Manual e Extração
-python
-Copiar código
+```python
+
 from text_extractor import preprocess_image, extract_text
 
 # Caminho para a imagem
