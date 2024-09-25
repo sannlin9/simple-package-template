@@ -27,7 +27,7 @@ opencv-python
 Além disso, o Tesseract OCR precisa estar instalado no sistema.
 
 Instalação do Tesseract
-Windows: Baixe e instale o Tesseract aqui.
+Windows: Baixe e instale o Tesseract [aqui](https://github.com/UB-Mannheim/tesseract/wiki).
 
 Ubuntu:
 
