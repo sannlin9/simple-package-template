@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="text_extractor",
+    name="text_extractor-PT-BR",
     version="0.1",
     author="Sandra Costa",
     author_email="sandralin.9@gmail.com",
     description="Um pacote para extrair textos de imagens usando pytesseract",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/seuusuario/text_extractor",  # URL do seu repositório (opcional)
+    url="https://github.com/sannlin9/text_extractor_package/tree/master/.venv/text_extractor-PT-BR",  # URL do seu repositório (opcional)
     packages=find_packages(),
     install_requires=[
         "pytesseract>=0.3.7",
