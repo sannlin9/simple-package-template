@@ -20,10 +20,11 @@ pip install text_extractor-PT-BR
 
 _Dependências_
 O pacote depende das seguintes bibliotecas:
-
+```python
 pytesseract
 Pillow
 opencv-python
+```
 Além disso, o Tesseract OCR precisa estar instalado no sistema.
 
 Instalação do Tesseract
