@@ -1,4 +1,5 @@
-# text_extractor-PT-BR
+# [text_extractor-PT-BR]('https://pypi.org/project/text-extractor-PT-BR/)
+
 
 #### Um pacote Python para extrair textos de imagens usando pytesseract, com suporte para pré-processamento de imagens e extração de texto em português.
 
